@@ -1,0 +1,178 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
+  .container {
+    width: 500px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .top-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+.form-home {
+    margin-top: 10px;
+}
+
+  .tenis__label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .tenis__input:checked~.tenis__label>.tenis__span {
+    background-image: url("../images/table-tennis.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000;
+  }
+  
+
+
+.tenis__span {
+    display: block; 
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 6px;
+}
+
+.basketbol__label {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .basketbol__input:checked~.basketbol__label>.basketbol__span {
+    background-image: url("../images/basketball-ball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000;
+  }
+
+
+.basketbol__span {
+    display: block; 
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 6px;
+}
+
+.voleybol__label {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .voleybol__input:checked~.voleybol__label>.voleybol__span {
+    background-image: url("../images/volleyball-ball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000;
+  }
+
+  .voleybol__input:disabled~.voleybol__label>.voleybol__span {
+    opacity: 0.4;
+}
+
+.voleybol__input:disabled~.voleybol__label {
+    opacity: 0.4;
+}
+
+
+
+.voleybol__span {
+    display: block; 
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 6px;
+}
+
+.hokkey__input:disabled~.hokkey__label>.hokkey__span {
+    opacity: 0.4;
+}
+
+.hokkey__input:disabled~.hokkey__label {
+    opacity: 0.4;
+}
+
+.hokkey__label {
+    display: flex;
+    letter-spacing: 1px;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .hokkey__input:checked~.hokkey__label>.hokkey__span {
+    background-image: url("../images/hockey-puck.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #000;
+  }
+
+
+.hokkey__span {
+    display: block; 
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
